@@ -1,6 +1,8 @@
 <img src="https://img.shields.io/badge/status-Active-green" height="20"> <img src="https://img.shields.io/github/issues/adumrewal/mtcnn-landmark-detector" height="20"> <img src="https://img.shields.io/github/stars/adumrewal/mtcnn-landmark-detector" height="20"> <img src="https://img.shields.io/github/license/adumrewal/mtcnn-landmark-detector" height="20"> <img src="https://img.shields.io/badge/language-python-yellow" height="20">
 
 ## Overview
+Sometimes we already have cropped face images using another model and just want to run facial landmark detection using a lightweight model. Running the entire MTCNN model is costly and involves a lot of unnecessary computation. With the help of this repo we're sharing a lightweight network for the same.
+
 This repository provides code to run stage 3 (ONet) of the MTCNN (Multi-Task Cascaded Convolutional Networks) model for landmark detection on a cropped face image. These landmarks can then be used for frontal face detection or face alignment.
 
 The MTCNN model is a deep learning-based face detection algorithm that can detect faces in images with high accuracy. It consists of three stages: PNet, RNet, and ONet. The first two stages are used to generate candidate face regions, while the third stage (ONet) is used to refine the candidate regions and detect facial landmarks (left eye, right eye, nose, left mouth centre, right mouth centre) -> see [paper](https://arxiv.org/abs/1604.02878) for more details.
