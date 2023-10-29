@@ -10,6 +10,8 @@ The MTCNN model is a deep learning-based face detection algorithm that can detec
 You'll find in the sample results that the model works very well with both high-resolution images as well as low-resolution images. It is a very `lightweight` model and can be easily deployed on either a `CPU` or small `GPU`. The model is also suitable for deployment on `edge/mobile devices`.
 
 ## Demo
+Live Demo available at: [HuggingFace Spaces - MTCNN Face Landmarks](https://huggingface.co/spaces/adumrewal/mtcnn-face-landmarks)
+
 Here's a demo of the code in this repository in action:
 |Input Face|Face Landmarks|---------------|Input Face|Face Landmarks|
 |:-:|:-:|:-:|:-:|:-:|
